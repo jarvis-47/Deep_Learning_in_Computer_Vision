@@ -1,0 +1,7 @@
+# Neural Network-Based Image Captioning with RNNs and LSTMs
+
+Description: In this project, I delved into the realm of image captioning, employing the COCO Captions dataset to train models capable of generating descriptive natural language captions for images. I embarked on constructing and training vanilla Recurrent Neural Networks (RNNs), Long Short-Term Memory networks (LSTMs), and attention-based LSTMs, drawing inspiration from foundational works in neural network-based image captioning. Utilizing a preprocessed subset of the dataset, which included 10,000 training and 500 testing image-caption pairs, I focused on efficient computation by downsampling images and streamlining caption processing.
+
+A pivotal aspect of my approach was the implementation of temporal softmax loss to address the variable lengths of captions, ensuring that padding tokens did not influence the model's loss calculation. Through meticulous training and hyperparameter tuning, I optimized each model variant, starting with a basic RNN framework and progressively integrating the more complex LSTM and attention mechanisms to enhance the model's ability to generate coherent and contextually relevant captions.
+
+This project not only showcases my technical prowess in implementing advanced neural network architectures but also highlights my ability to tackle challenging problems in the intersection of computer vision and natural language processing, aiming to bridge the gap between visual content and its linguistic representation.
